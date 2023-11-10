@@ -12,7 +12,7 @@ Assegure-se de que tanto vogais maiúsculas quanto minúsculas sejam substituíd
 Todos os outros caracteres permanecem inalterados.
 Saída:
 
-Após processar a string, o programa deve exibir uma saudação que inclua o nome modificado. Por exemplo, "Hello, Jhn De!" se o nome for "John Doe".
+Após processar a string, o programa deve exibir uma saudação que inclua o nome modificado. Por exemplo, `Olá, F*l*n* de t*l!` se o nome for "Fulano de tal".
 Testes:
 
 Teste o programa com seu próprio nome e com outros nomes para garantir que a substituição de vogais está funcionando corretamente.
