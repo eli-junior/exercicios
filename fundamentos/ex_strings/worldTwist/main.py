@@ -9,7 +9,7 @@ def is_valid_name(entry):
 def entry_name():
     while True:
         user_input = input("Digite seu nome: ")
-        if is_valid_name(user_input):
+        if is_valid_name(user_input) is True:
             return user_input
         else:
             print("Entrada inválida. Por favor, digite apenas letras e espaços.")
@@ -25,9 +25,12 @@ if __name__ == "__main__":
     assert is_valid_name("123 de oliveira 4") is False
     assert swap_vowels("JoÃo Pedro") == "J*** P*dr*"
 
-    # entrada
-    name = entry_name()
-    # processamento
-    new_name = swap_vowels(name)
-    # saída
-    print(f"Olá, {new_name}!")
+    try:
+        # entrada
+        name = entry_name()
+        # processamento
+        new_name = swap_vowels(name)
+        # saída
+        print(f"Olá, {new_name}!")
+    except KeyboardInterrupt:
+        print("\n\nPrograma interrompido pelo usuário.")
