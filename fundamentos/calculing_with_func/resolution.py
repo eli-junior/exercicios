@@ -1,15 +1,86 @@
-def zero(): pass #your code here
-def one(): pass #your code here
-def two(): pass #your code here
-def three(): pass #your code here
-def four(): pass #your code here
-def five(): pass #your code here
-def six(): pass #your code here
-def seven(): pass #your code here
-def eight(): pass #your code here
-def nine(): pass #your code here
+def zero(exp=None):
+    n = "0"
+    if not exp:
+        return n
+    return eval(n + exp)
 
-def plus(): pass #your code here
-def minus(): pass #your code here
-def times(): pass #your code here
-def divided_by(): pass #your code here
+
+def one(exp=None):
+    n = "1"
+    if not exp:
+        return n
+    return eval(n + exp)
+
+
+def two(exp=None):
+    n = "2"
+    if not exp:
+        return n
+    return eval(n + exp)
+
+
+def three(exp=None):
+    n = "3"
+    if not exp:
+        return n
+    return eval(n + exp)
+
+
+def four(exp=None):
+    n = "4"
+    if not exp:
+        return n
+    return eval(n + exp)
+
+
+def five(exp=None):
+    n = "5"
+    if not exp:
+        return n
+    return eval(n + exp)
+
+
+def six(exp=None):
+    n = "6"
+    if not exp:
+        return n
+    return eval(n + exp)
+
+
+def seven(exp=None):
+    n = "7"
+    if not exp:
+        return n
+    return eval(n + exp)
+
+
+def eight(exp=None):
+    n = "8"
+    if not exp:
+        return n
+    return eval(n + exp)
+
+
+def nine(exp=None):
+    n = "9"
+    if not exp:
+        return n
+    print(exp)
+    return eval(n + exp)
+
+
+
+def plus(number):
+    return "+" + number
+
+
+def minus(number):
+    return "-" + number
+
+
+def times(number):
+    return "*" + number
+
+
+def divided_by(number):
+    return "/" + number
