@@ -15,6 +15,11 @@ flatten('a', ['b', 2], 3, None, [[4], ['c']])
     # returns ['a', 'b', 2, 3, None, 4, 'c']
 """
 
-
-def flatten():
-    ...
+def flatten(*args):
+    response = []
+    for x in args:
+        if isinstance(x, list):
+            response.extend(x)
+        else:
+            response.append(x)
+    return response
